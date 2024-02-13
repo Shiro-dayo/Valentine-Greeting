@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #364f6b;
+    text-align: center;
+    padding-top: 250px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.button {
+        
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+}
+
+#yesButton {
+    display: inline-block;
+    background-color: lightgreen;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#noButton {
+    display: inline-block;
+    background-color: lightcoral;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.centerImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+}
+
+a.button {
+        display: inline-block;
+        background-color: #db7093;
+        color: white;
+        padding: 10px 20px;
+        margin: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+.content-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #ffccd5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
